@@ -8,15 +8,9 @@ public class QueueAtTheSchool {
         int n, t;
         n = sc.nextInt();
         t = sc.nextInt();
-
-
         String str = sc.next();
-
-        char[] arr =new char[str.length()];
+        char[] arr;
         arr = str.toCharArray();
-
-
-
 
         for(int i =0; i < n-1; i++){
             if(t-- >0) {
