@@ -11,10 +11,12 @@ public class QueueAtTheSchool {
 
 
         String str = sc.next();
-        String wd = "";
-        int flag = 0;
+
         char[] arr =new char[str.length()];
         arr = str.toCharArray();
+
+
+
 
         for(int i =0; i < n-1; i++){
             if(t-- >0) {
