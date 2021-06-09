@@ -1,10 +1,7 @@
-package A2OJ.Division_A;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
-
 
 public class ArrivalOfTheGeneral {
     public static void main(String[] args){
@@ -34,7 +31,6 @@ public class ArrivalOfTheGeneral {
                 minPos = i;
             }
         }
-        //System.out.println(maxPos+", "+minPos);
         maxPos +=1;
         minPos +=1;
         if(maxPos>minPos) {
@@ -46,15 +42,3 @@ public class ArrivalOfTheGeneral {
         }
     }
 }
-/*
-4
-33 44 11 22
-[44, 33, 22, 11]
-44, 11
-1, 2
-2
-*
-
-
-
-**/
