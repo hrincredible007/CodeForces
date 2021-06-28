@@ -5,7 +5,6 @@ public class DominPiling {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int m = sc.nextInt();
-        int i = 1;
         int result = (m*n)/(2);
         System.out.println(result);
     }
