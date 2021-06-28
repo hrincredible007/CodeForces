@@ -17,6 +17,5 @@ public class DubStep {
             }
         }
         System.out.println(res.trim());
-
     }
 }
