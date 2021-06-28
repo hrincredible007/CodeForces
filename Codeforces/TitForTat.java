@@ -14,20 +14,14 @@ public class TitForTat {
             int[] a = new int[n];
             for(int i=0;i<n;i++) {
                 arr[i] = sc.nextInt();
-
             }
-            // Bubble Sorting
             int[] ra = bubbleSort(arr, n);
-
 
             for (int i = 0; i < n; i++) {
                 System.out.println(arr[i]+",  ");
             }
-
-
         }
     }
-
     public static int[] bubbleSort(int[] arr, int n){
         for(int i=0;i<n;i++){
             for(int j =0;j<n-1-i;j++){
@@ -42,9 +36,3 @@ public class TitForTat {
     }
 }
 
-/*
- 2
- 3 1
- 3 1 4
- 2 10
- 1 0*/
