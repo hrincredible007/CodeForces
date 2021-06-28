@@ -26,8 +26,7 @@ public class PetyaAndStrings {
                 System.out.println("1");
                 break;
             }
-        }
-        if(flag==0){
+        }if(flag==0){
             System.out.println("0");
         }
     }
