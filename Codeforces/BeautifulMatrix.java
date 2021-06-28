@@ -18,6 +18,7 @@ public class BeautifulMatrix {
                     posJ = j;
                 }
             }
+            
         }
         System.out.println(Math.abs(2-posI)+Math.abs(2-posJ));
     }
