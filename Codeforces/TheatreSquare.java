@@ -10,11 +10,8 @@ class TheatreSquare{
         a = sc.nextInt();
         BigInteger bg = new BigInteger(String.valueOf(n));
         BigInteger bg1 = new BigInteger(String.valueOf(m));
-
         BigInteger length = new BigInteger(String.valueOf(0));
         BigInteger breadth = new BigInteger(String.valueOf(0));
-
-
         if(n==1 && m==1){
             System.out.println(1);
             System.exit(0);
