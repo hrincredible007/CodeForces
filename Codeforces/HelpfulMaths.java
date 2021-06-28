@@ -1,7 +1,6 @@
 package A2OJ.Division_A;
 
 import java.util.*;
-
 public class HelpfulMaths {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -12,8 +11,7 @@ public class HelpfulMaths {
             if(ch!='+'){
                 list.add((Integer.parseInt(String.valueOf(ch))));
             }
-        }
-        Arrays.sort(list.toArray());
+        }Arrays.sort(list.toArray());
         Collections.sort(list);
         for (int i = 0; i < list.size(); i++) {
 
@@ -22,7 +20,6 @@ public class HelpfulMaths {
             else{
                 System.out.print(list.get(i));
             }
-
         }
     }
 }
