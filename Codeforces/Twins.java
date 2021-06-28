@@ -12,8 +12,6 @@ public class Twins {
             arr[i] = sc.nextInt();
             sum+=arr[i];
         }
-
-
         // Bubble Sort
         for(int i=0 ;i<n; i++){
             for (int j = 0; j < n-1-i; j++) {
@@ -24,7 +22,6 @@ public class Twins {
                 }
             }
         }
-
 
         int s = 0;
         int c = 0;
