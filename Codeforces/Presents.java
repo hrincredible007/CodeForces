@@ -8,16 +8,12 @@ public class Presents {
         int n = sc.nextInt();
         int[] arr = new int[n];
         int[] a = new int[n];
-
-
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
             a[arr[i]-1] = i+1;
         }
         for (int i : a) {
             System.out.print(i + " ");
-
         }
-
     }
 }
