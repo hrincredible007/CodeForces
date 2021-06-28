@@ -26,6 +26,5 @@ public class NextRound {
             i++;
         }
         System.out.println(count);
-
     }
 }
