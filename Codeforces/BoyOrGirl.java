@@ -13,6 +13,5 @@ public class BoyOrGirl {
             }
         }
         System.out.println(s.length()%2==0?"CHAT WITH HER!":"IGNORE HIM!");
-
     }
 }
