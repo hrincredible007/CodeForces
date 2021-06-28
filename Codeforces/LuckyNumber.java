@@ -9,9 +9,6 @@ public class LuckyNumber {
         int num=  n;
         DivisionNyLucky(num);
     }
-
-
-
     private static void DivisionNyLucky(int num) {
         int flag =0;
         if(LuckyNumbr(num)){
@@ -19,7 +16,6 @@ public class LuckyNumber {
             flag = 1;
             return;
         }
-
         for(int i =1;i<num;i++){
             if(LuckyNumbr(i) && num%i == 0){
                 System.out.println("YES");
@@ -32,7 +28,6 @@ public class LuckyNumber {
             return;
         }
     }
-
     private static boolean LuckyNumbr(int i) {
         boolean flag = true;
         while(i!=0){
@@ -43,8 +38,7 @@ public class LuckyNumber {
             else{
                 flag = false;
                 break;
-            }
-            i/=10;
+            }i/=10;
         }
         return flag;
     }
