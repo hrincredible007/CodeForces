@@ -9,15 +9,10 @@ public class YoungPhysicist {
         int x, y, z;
         x = y = z = 0;
         int[][] arr = new int[t][3];
-
-        
-
         for (int i = 0; i < t; i++) {
             for (int j = 0; j < 3; j++) {
                 arr[i][j] = sc.nextInt();
             }
-
-
         }
         for (int i = 0; i < t; i++) {
             x=x+arr[i][0];
