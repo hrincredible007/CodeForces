@@ -1,7 +1,6 @@
 package A2OJ.Division_A;
 
 import java.util.Scanner;
-
 public class Games {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
