@@ -9,8 +9,7 @@ public class BitPusPlus {
             String str = sc.next();
             if(str.contains("++")){
                 x++;
-            }
-            else{
+            }else{
                 x--;
             }
         }
