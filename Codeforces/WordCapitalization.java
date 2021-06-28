@@ -16,6 +16,5 @@ public class WordCapitalization {
             s = s+ch1;
         }
         System.out.println(s);
-
     }
 }
