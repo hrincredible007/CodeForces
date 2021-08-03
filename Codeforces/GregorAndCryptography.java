@@ -9,8 +9,7 @@ public class GregorAndCryptography {
         while(t-->0){
             int P = sc.nextInt();
             int res = P/2;
-            res = res*2;
-            System.out.println(2+" "+ res);
+            System.out.println(2+" "+ res*2);
         }
     }
 }
