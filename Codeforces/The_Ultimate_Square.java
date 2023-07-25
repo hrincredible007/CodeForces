@@ -1,5 +1,4 @@
 package A;
-
 import java.util.Scanner;
 
 public class The_Ultimate_Square {
