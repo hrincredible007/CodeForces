@@ -1,5 +1,4 @@
 //package C;
-
 import java.util.Scanner;
 
 public class TilesComeback {
